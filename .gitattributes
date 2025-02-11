@@ -1,0 +1,15 @@
+# Forçar arquivos de código-fonte a usarem LF
+*.cs text eol=lf
+*.shader text eol=lf
+*.json text eol=lf
+# Preservar arquivos binários sem modificação
+*.png binary
+*.jpg binary
+*.fbx binary
+*.exe binary
+*.dll filter=lfs diff=lfs merge=lfs -text
+# Arquivos de configuração do Unity podem ser mantidos com CRLF no Windows
+*.meta text eol=crlf
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text

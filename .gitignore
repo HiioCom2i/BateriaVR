@@ -1,0 +1,26 @@
+# Pastas que não devem ir para o Git
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Arquivos do Visual Studio
+.vs/
+*.csproj
+*.sln
+*.suo
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+
+# Configurações locais de usuários
+*.swp
+*.swo
+*.bak
+*.db
+
+
