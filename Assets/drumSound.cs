@@ -22,7 +22,7 @@ public class drumSound : MonoBehaviour
 
             if (rb != null && audioSource != null){
                 
-                float velocidade = rb.velocity.magnitude;
+                float velocidade = rb.linearVelocity.magnitude;
 
                 float volume = Mathf.Clamp01(1- Mathf.Exp(-velocidade * 5f));
                 

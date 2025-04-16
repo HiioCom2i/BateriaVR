@@ -12,7 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/ambienteBateria.unity
     guid: 6ebeef0503e92a445badd2586b7c6614
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8263dd03d893c9942aeb08a7be853268,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 551f691638343e14aa60ba0d6a40b81f,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 01683671054bfcc45bc15db8c1b2e5a5,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d5117f3102a092a4ea6efa575e5b0e2b,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: be0c90c3775a7f546820dd5c39dcf16a,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: d7c4bf96bc1402b4cb0065d55523d81c,
       type: 2}
