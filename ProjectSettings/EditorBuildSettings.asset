@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ambienteBateria.unity
     guid: 6ebeef0503e92a445badd2586b7c6614
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/74.0.2/Sample Scenes/HandTest_Custom.unity
+    guid: c884d076d6398b54492bcc64bbe30bf5
+  - enabled: 0
+    path: Assets/Samples/Meta XR Core SDK/74.0.2/Sample Scenes/HandMicrogestures.unity
+    guid: 1b1c5974df2e1dd4c8c6e52c9db592eb
+  - enabled: 0
+    path: Assets/Samples/XR Hands/1.5.1/HandVisualizer/HandVisualizer.unity
+    guid: ab7acf0d9677fbe4db51bc36647d4fcb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8263dd03d893c9942aeb08a7be853268,
       type: 2}
@@ -24,3 +33,4 @@ EditorBuildSettings:
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: d7c4bf96bc1402b4cb0065d55523d81c,
       type: 2}
+  m_UseUCBPForAssetBundles: 0
