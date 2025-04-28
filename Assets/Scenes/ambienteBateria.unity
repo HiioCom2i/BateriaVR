@@ -1410,6 +1410,21 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 17dabfb5562e4e444ae4bccd631c0ef9, type: 2}
+    - target: {fileID: 3063970230761471152, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063970230761471152, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 3063970230761471152, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.008
+      objectReference: {fileID: 0}
     - target: {fileID: 3950843706659137880, guid: 3f6a1705beb80774dba0adbcba924f93,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1460,6 +1475,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4075457290337694040, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075457290337694040, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075457290337694040, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075457290337694040, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 102900000, guid: 74de67f8941fd884893eefce97563a6b,
+        type: 3}
+    - target: {fileID: 4075457290337694040, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075457290337694040, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5487959997052125902, guid: 3f6a1705beb80774dba0adbcba924f93,
         type: 3}
       propertyPath: m_Name
@@ -1470,6 +1516,36 @@ PrefabInstance:
       propertyPath: m_HandMeshMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 17dabfb5562e4e444ae4bccd631c0ef9, type: 2}
+    - target: {fileID: 7987853950440893084, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3369151
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987853950440893084, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.96425986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987853950440893084, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.99116
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987853950440893084, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.133
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987853950440893084, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987853950440893084, guid: 3f6a1705beb80774dba0adbcba924f93,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.015
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1494,10 +1570,20 @@ PrefabInstance:
       propertyPath: m_ThrowOnDetach
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 521269453782575583, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 640753512258664425, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_ThrowOnDetach
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 640753512258664425, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 696292717618479873, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
@@ -1584,6 +1670,11 @@ PrefabInstance:
       propertyPath: m_ThrowOnDetach
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3426945101659135895, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3511343077443581233, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_ThrowOnDetach
@@ -1593,6 +1684,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ThrowOnDetach
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719038837478795380, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3838589577805416927, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3838589577805416927, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5678131751185470788, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
@@ -1609,10 +1715,25 @@ PrefabInstance:
       propertyPath: m_ThrowOnDetach
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6207223468944479785, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7014125459202665886, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8048821392848638098, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8048821392848638098, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
