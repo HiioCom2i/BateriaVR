@@ -1,36 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class drumSound : MonoBehaviour
+public class DrumSound : MonoBehaviour
 {
-    private AudioSource audioSource;
-    void Start(){
-        
-        audioSource = GetComponent<AudioSource>();
+    public AudioSource audioSource;
 
-    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Algo entrou em contato com o tambor: " + other.name);
 
-    private void OnTriggerEnter(Collider other){
-
-        if (other.CompareTag("Baqueta")){
-            
-            Debug.Log("Baqueta bateu no tambor!");
-
-            Rigidbody rb = other.GetComponent<Rigidbody>();
-
-
-            if (rb != null && audioSource != null){
-                
-                float velocidade = rb.linearVelocity.magnitude;
-
-                float volume = Mathf.Clamp01(1- Mathf.Exp(-velocidade * 5f));
-                
-                audioSource.volume = volume;
-                audioSource.Play();
-
-                Debug.Log($"Velocidade: {velocidade}, Volume: {volume}");
-            }
+        if (other.CompareTag("Baqueta"))
+        {
+            Debug.Log("A baqueta bateu no tambor!");
+            audioSource.Play();
         }
     }
 }

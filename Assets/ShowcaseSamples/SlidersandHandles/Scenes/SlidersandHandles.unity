@@ -5925,10 +5925,20 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 640753512258664425, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 696292717618479873, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1709114672918393304, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2584337890214980687, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
@@ -6005,6 +6015,41 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3871603479489264056, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 960127046}
+    - target: {fileID: 3871603479489264056, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: volumeMultiplier
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381354678114074518, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381354678114074518, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: maxVolume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381354678114074518, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2004106559}
+    - target: {fileID: 4381354678114074518, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: volumeMultiplier
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5236162063393888426, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1878095242}
     - target: {fileID: 5678131751185470788, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_Name
@@ -6013,8 +6058,13 @@ PrefabInstance:
     - target: {fileID: 6207223468944479785, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6616062131379888378, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1106449849}
     - target: {fileID: 7014125459202665886, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       propertyPath: m_IsKinematic
@@ -6035,11 +6085,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5192333011704619957, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 550752385}
+      addedObject: {fileID: 550752384}
     - targetCorrespondingSourceObject: {fileID: 5192333011704619957, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 550752384}
+      addedObject: {fileID: 550752385}
     - targetCorrespondingSourceObject: {fileID: 5192333011704619957, guid: bff74442b5d54cc4fb27e81b0af6cd17,
         type: 3}
       insertIndex: -1
@@ -6969,7 +7019,7 @@ MonoBehaviour:
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 550752385}
-  _rigidbody: {fileID: 0}
+  _rigidbody: {fileID: 550752384}
   _physicsGrabbable: {fileID: 0}
   _resetGrabOnGrabsUpdated: 1
   _scoringModifier:
@@ -7039,7 +7089,7 @@ MonoBehaviour:
   _twoGrabTransformer: {fileID: 0}
   _targetTransform: {fileID: 0}
   _maxGrabPoints: -1
-  _rigidbody: {fileID: 0}
+  _rigidbody: {fileID: 550752384}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
 --- !u!1 &557076779
@@ -8288,7 +8338,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -9650,6 +9700,12 @@ MonoBehaviour:
   _rigidbody: {fileID: 960127033}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!82 &960127046 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7731920328152614979, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+    type: 3}
+  m_PrefabInstance: {fileID: 204375032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &961526996
 GameObject:
   m_ObjectHideFlags: 0
@@ -10419,6 +10475,12 @@ MonoBehaviour:
   _rigidbody: {fileID: 1106449837}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!82 &1106449849 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1051923972906589605, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+    type: 3}
+  m_PrefabInstance: {fileID: 204375032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1160775353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4872845891915342253, guid: ea16c3c8c1688234fa81a4f39339bf1b,
@@ -14055,6 +14117,12 @@ MonoBehaviour:
   _rigidbody: {fileID: 1878095229}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+--- !u!82 &1878095242 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7300039114022257287, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+    type: 3}
+  m_PrefabInstance: {fileID: 204375032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1926824273
 GameObject:
   m_ObjectHideFlags: 0
@@ -14676,6 +14744,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!82 &2004106559 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 9119352390524025741, guid: bff74442b5d54cc4fb27e81b0af6cd17,
+    type: 3}
+  m_PrefabInstance: {fileID: 204375032}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2024323597
 GameObject:
   m_ObjectHideFlags: 0
