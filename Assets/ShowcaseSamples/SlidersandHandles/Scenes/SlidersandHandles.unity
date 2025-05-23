@@ -6552,6 +6552,7 @@ GameObject:
   - component: {fileID: 204375035}
   - component: {fileID: 204375034}
   - component: {fileID: 204375040}
+  - component: {fileID: 204375041}
   m_Layer: 0
   m_Name: pauzinho2
   m_TagString: Baqueta
@@ -6753,6 +6754,18 @@ CapsuleCollider:
   m_Height: 2.044049
   m_Direction: 1
   m_Center: {x: -0.000026653417, y: 0.009020567, z: 0.000045667115}
+--- !u!114 &204375041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204375032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b18f5fa1c1bd5745898e256a4dc7e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &204929214
 GameObject:
   m_ObjectHideFlags: 0
@@ -28573,6 +28586,7 @@ GameObject:
   - component: {fileID: 6164962437716684670}
   - component: {fileID: 1637969626}
   - component: {fileID: 1637969625}
+  - component: {fileID: 6164962437716684672}
   m_Layer: 0
   m_Name: pauzinho1
   m_TagString: Baqueta
@@ -39542,6 +39556,18 @@ CapsuleCollider:
   m_Height: 2.0754797
   m_Direction: 1
   m_Center: {x: -0.037616305, y: 0.021994706, z: 0.000022893662}
+--- !u!114 &6164962437716684672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4550029887850376610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b18f5fa1c1bd5745898e256a4dc7e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &6168229686991619917
 BoxCollider:
   m_ObjectHideFlags: 0
