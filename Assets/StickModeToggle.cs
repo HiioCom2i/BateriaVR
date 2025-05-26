@@ -41,6 +41,7 @@ public class StickModeToggle : MonoBehaviour
         stick.transform.SetParent(null);
 
         Rigidbody rb = stick.GetComponent<Rigidbody>();
-        rb.isKinematic = false;
+        rb.isKinematic = true;  // mantém cinemática mesmo solta
     }
+
 }
