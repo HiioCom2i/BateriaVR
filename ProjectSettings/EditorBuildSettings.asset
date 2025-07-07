@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Samples/XR Hands/1.5.1/HandVisualizer/HandVisualizer.unity
     guid: ab7acf0d9677fbe4db51bc36647d4fcb
   - enabled: 0
-    path: Assets/ShowcaseSamples/SlidersandHandles/Scenes/SlidersandHandles.unity
+    path: Assets/Project/ImportedProjects/ShowcaseSamples/SlidersandHandles/Scenes/SlidersandHandles.unity
     guid: 594f39dab9a65164aa4b9bf8240bdba4
   - enabled: 1
     path: Assets/Project/Scenes/SlidersandHandles.unity
