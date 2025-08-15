@@ -27737,10 +27737,10 @@ GameObject:
   - component: {fileID: 5690202013252521005}
   - component: {fileID: 8048821392648459114}
   - component: {fileID: 9119352390458652789}
-  - component: {fileID: 4381354678178462830}
   - component: {fileID: 5362167325753667758}
-  - component: {fileID: 640753512060056593}
   - component: {fileID: 3838589577605761575}
+  - component: {fileID: 640753512060056593}
+  - component: {fileID: 4381354678178462830}
   - component: {fileID: 2675317890028911420}
   - component: {fileID: 3198834828133642699}
   - component: {fileID: 9119352390458652790}
@@ -40473,7 +40473,7 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
