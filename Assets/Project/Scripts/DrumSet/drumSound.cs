@@ -12,7 +12,7 @@ public class DrumSound : MonoBehaviour
 
     private void Start()
     {
-        visualPulse = GetComponent<DrumVisualPulse>();
+        visualPulse = GetComponentInParent<DrumVisualPulse>();
     }
 
     private void OnTriggerEnter(Collider other)
