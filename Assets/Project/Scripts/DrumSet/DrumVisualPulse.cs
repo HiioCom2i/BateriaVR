@@ -6,7 +6,7 @@ public class DrumVisualPulse : MonoBehaviour
     public Color pulseColor = Color.yellow;
     public float pulseDuration = 0.15f;
     public float pulseScale = 1.1f;
-    public float pulseSpeed = 10f; // quanto maior, mais rápido
+    public float pulseSpeed = 10f; // quanto maior, mais rï¿½pido
 
     private Renderer drumRenderer;
     private Color originalColor;
@@ -39,6 +39,7 @@ public class DrumVisualPulse : MonoBehaviour
         drumRenderer.material.color = pulseColor;
 
         // Crescer suavemente
+        originalScale = transform.localScale;
         Vector3 targetScale = originalScale * pulseScale;
         float t = 0f;
 
