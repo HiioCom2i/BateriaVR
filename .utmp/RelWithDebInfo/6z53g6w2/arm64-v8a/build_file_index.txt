@@ -1,0 +1,2 @@
+C:\Users\matheus.paz.017\Desktop\projeto Bateria\BateriaVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\matheus.paz.017\Desktop\projeto Bateria\BateriaVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

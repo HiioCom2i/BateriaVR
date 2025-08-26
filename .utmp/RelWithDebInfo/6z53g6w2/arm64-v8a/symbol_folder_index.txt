@@ -1,0 +1,1 @@
+C:\Users\matheus.paz.017\Desktop\projeto Bateria\BateriaVR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\6z53g6w2\obj\arm64-v8a
