@@ -7,10 +7,9 @@ Desenvolvimento de uma Bateria Virtual em Realidade Aumentada (RA) utilizando a 
 
 ## 📸 Demonstração
 
-Imagens do projeto
 
 <p align="center">
-  <img src="./Assets/Readme%20Assets/Captura%20de%20tela%202025-09-19%20153941.png" width="400"/>
+  <img src="./Assets/Readme%20Assets/Captura%20de%20tela%202025-09-19%20154050.png" width="400"/>
   <img src="./Assets/Readme%20Assets/Captura%20de%20tela%202025-09-19%20154036.png" width="400"/>
 </p>
 
@@ -20,10 +19,10 @@ Imagens do projeto
 
 ## 🛠 Tecnologias Utilizadas
 
-- [Unity](https://unity.com/) (versão usada no projeto)
+- [Unity](https://unity.com/) (versão 6000.0.49f1)
 - Linguagem: **C#**
-- SDK VR (especifique: Oculus, SteamVR, Meta Quest, etc.)
-- Pacotes adicionais (se houver: sistema de input, plugins de áudio etc.)
+- SDK VR: **Meta XR All-in-One SDK**
+
 
 ---
 
