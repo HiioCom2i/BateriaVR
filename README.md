@@ -7,11 +7,14 @@ Desenvolvimento de uma Bateria Virtual em Realidade Aumentada (RA) utilizando a 
 
 ## 📸 Demonstração
 
-Adicione aqui screenshots, GIFs ou vídeos mostrando o projeto em ação.
+Imagens do projeto
 
-Exemplo:
+<p align="center">
+  <img src="./Assets/Readme%20Assets/Captura%20de%20tela%202025-09-19%20153941.png" width="400"/>
+  <img src="./Assets/Readme%20Assets/Captura%20de%20tela%202025-09-19%20154036.png" width="400"/>
+</p>
 
-![Demonstração](./Assets/demo.gif)
+
 
 ---
 
